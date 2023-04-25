@@ -6,6 +6,15 @@ const nextConfig = {
     domains: ['raw.githubusercontent.com', 'arweave.net'],
   },
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/get',
+        destination: '/api/download-app',
+        permanent: true,
+      },
+    ]
+  },
   webpack: (config, opts) => {
     if (!opts.isServer) {
       // don't resolve 'fs' module on the client to prevent this error on build --> Error: Can't resolve 'fs'

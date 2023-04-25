@@ -157,12 +157,14 @@ const MangoApp = () => {
           <span className="flex inline-flex uppercase tracking-widest text-base font-bold text-th-primary rounded-full border-2 border-th-primary px-4 py-2">
             Payments
           </span>
-          <h2 className="mb-10 mt-12 text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl tracking-tight">
-            Send &amp; accept <br /> crypto payments
+          <h2 className="mb-10 mt-12 text-3xl sm:text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl tracking-tight">
+            Send &amp; request <br /> payments
           </h2>
-          <p className="text-xl lg:text-2xl">
-            Securely pay or get paid with a phone number or QR code.
-            <span className="text-th-fgd-1">Guaranteed and immediate.</span>
+          <p className="text-2xl xl:text-3xl xl:leading-tight">
+            Securely pay or request from a phone number or QR code.{' '}
+            <span className="text-th-fgd-1">
+              Transactions are immediate and cost a fraction of a penny.
+            </span>
           </p>
         </div>
         <div className="flex flex-wrap md:flex-nowrap w-full mx-auto items-center mt-20 text-center md:text-left">
@@ -193,9 +195,8 @@ const MangoApp = () => {
               Pay friends <br /> instantly
             </h3>
             <p className="text-l leading-snug">
-              Pay with crypto with phone number or a QR code to instantly
-              transfer payments. Say goodbye to the hassle with wallet addresses
-              or traditional banking methods.
+              Pay with crypto for fast transactions. Your payments are sent faster than traditional
+              payment platforms.
             </p>
           </div>
         </div>
@@ -230,12 +231,12 @@ const MangoApp = () => {
           </div>
           <div className="w-full md:w-1/2 py-10 md:px-10 md:order-1">
             <h3 className="mb-8 text-2xl md:text-3xl lg:text-4xl xl:text-5xl">
-              Request <br /> a payment
+              Request <br /> payments
             </h3>
             <p className="text-l leading-snug">
-              Send payment request to the people on your contact list even those
-              who do not have the app. Submit the request, and we will notify
-              you when it is done.
+              Send payment requests to the people on your contact list, even
+              before they have the app. Submit a request and we will notify you
+              when it&apos;s completed.
             </p>
           </div>
         </div>
